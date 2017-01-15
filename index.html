@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+</head>
+
+<body style="-webkit-user-select: none;overflow-x:hidden">
+    <div class="col-md-12 column" style="margin-top: 15px">
+        <div>
+            <div id="edit" class="input-group">
+                <input id="input_textbox" type="text" class="form-control" value="">
+                <span class="input-group-btn">
+					<button class="btn btn-default" onclick='add_list_item()'>Add</button>
+				</span>
+            </div>
+        </div>
+        <div style="margin-top: 10px;">
+            <ul id="list_box" class="list-group">
+            </ul>
+        </div>
+
+    </div>
+    <button class="btn btn-default" onclick="revoked()" style="position:fixed;right:0;bottom:0;border:0">
+			<img src="imge/undo.png" width=20 style="opacity:0.1">
+	</button>
+    <script>
+        window.$ = window.jQuery = require('./js/jquery-3.1.1.min');
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/m_core.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+
+</html>

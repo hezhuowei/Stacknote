@@ -1,4 +1,4 @@
-### Stacknote
+## about
 a stack style todolist build on Electron
 
 ### Licensing

@@ -1,5 +1,6 @@
 ## about
 a stack style todolist build on Electron
+</br>
 ![image](https://github.com/hezhuowei/Stacknote/blob/master/Screenshots.gif)
 
 ### Licensing
